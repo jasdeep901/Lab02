@@ -18,7 +18,7 @@ const Nav = () => {
       <Styles.Nav>
         <ul>
           <li>
-          <Link to="/">Home</Link>
+          <Link to="/Home">Home</Link>
           </li>
           <li>
           <Link to="/About">About</Link>
@@ -27,7 +27,7 @@ const Nav = () => {
       </Styles.Nav>
 
       <Switch>
-      <Route exact path = "/">
+      <Route exact path = "/Home">
            <Home/>
          </Route>
          <Route exact path = "/About">
